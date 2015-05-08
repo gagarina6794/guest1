@@ -1,0 +1,10 @@
+#кодировка сайта
+AddDefaultCharset utf-8
+
+#Устанавливаем альтернативную страницу по-умолчанию
+DirectoryIndex index.php
+
+#Разрешаем использование php кода в html
+
+#AddType application/x-httpd-php .php .htm .html .phtml
+AddHandler application/x-httpd-php .php .html .shtml .htm
